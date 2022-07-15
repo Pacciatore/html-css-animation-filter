@@ -133,7 +133,21 @@
 
 .ex-10-icon {
     font-size: 60px;
+
+    animation: rotation 2s infinite linear;
 }
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* /////////////////////////// */
 
 .ex-11-icon {
     font-size: 60px;
