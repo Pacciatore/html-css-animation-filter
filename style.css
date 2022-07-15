@@ -156,8 +156,7 @@
 }
 
 .ex-11-icon:hover {
-    transition: all 2s;
-    transition: all 2s;
+    transition: all 2s linear;
     transform: rotate(270deg);
 }
 
